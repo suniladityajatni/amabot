@@ -1,0 +1,58 @@
+#adityaBotDiv{
+    padding: 15px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    flex-direction: column;
+}
+#adityaImg{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#adityaQuery{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#adityaButton{
+    width: 50%;
+    background-color: rgb(7, 243, 14);
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#upperDiv{
+    margin:4px;
+    padding: 5px;
+    display: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+#adityaborder{
+
+    border: 3px solid black;
+    display: none;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+}
+#adityaColor{
+    transition: width 2s;
+    width: 0px;
+    max-width: 100%;
+    height: 0px;
+    color:red;
+}
+#confidenceh4{
+    display: none;
+    text-align: center;
+}

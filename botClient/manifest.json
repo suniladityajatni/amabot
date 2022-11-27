@@ -1,0 +1,21 @@
+{
+    "content_scripts": [ {
+        "js": [ "script.js" ],
+        "matches": [ "*://*/*" ],
+        "css": ["styles.css"]
+     } ],
+    "name": "AMABOT",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "boticon120.png"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "icons": {
+        "128": "boticon120.png"
+    }
+}
